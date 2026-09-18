@@ -1,0 +1,10 @@
+/* 本番テーマと同じ Web フォントを、プレビュー用にリポジトリ内から読み込む。
+   （本番のフォントファイルは CORS 設定により別ドメインからは読み込めず、
+     そのままではプレビューでフォントが置き換わってしまうため。
+     font-family / weight / style は本番テーマの @font-face と同一。） */
+@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:400;src:url(../fonts/lato-v25-latin-regular.woff2) format("woff2")}
+@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:500;src:url(../fonts/lato-v25-latin-regular.woff2) format("woff2")}
+@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:700;src:url(../fonts/lato-v25-latin-700.woff2) format("woff2")}
+@font-face{font-display:swap;font-family:Noto Sans JP;font-style:normal;font-weight:400;src:url(../fonts/noto-sans-jp-v56-japanese_latin-regular.woff2) format("woff2")}
+@font-face{font-display:swap;font-family:Noto Sans JP;font-style:normal;font-weight:500;src:url(../fonts/noto-sans-jp-v56-japanese_latin-500.woff2) format("woff2")}
+@font-face{font-display:swap;font-family:Noto Sans JP;font-style:normal;font-weight:600;src:url(../fonts/noto-sans-jp-v56-japanese_latin-600.woff2) format("woff2")}
