@@ -4,6 +4,7 @@
 
 ## Pages
 
+- ホーム（/）
 - PALを知る
   - 私たちの役割
   - FDEとは？
@@ -12,10 +13,12 @@
 
 ## Directory
 
+/
 /about/role/
 /about/fde/
 /about/reason/
 /about/faq/
+/preview/   ページ一覧（プレビュー用の入口ページ）
 
 ## Preview
 
